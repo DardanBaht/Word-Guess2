@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="assets/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+    
+        <header>
+                <h1>Guess This NBA Player</h1>
+            </header>
+
+
+            <div class = "Pic">
+
+                <img src="http://getwallpapers.com/wallpaper/full/1/2/4/428102.jpg" alt="Players">
+            </div>
+        
+        
+        
+            <div class = "Keys">
+        
+                    <h2>Press any key to get started!!</h2>
+        
+            </div>
+        
+            <div class = "Wins">
+        
+                <h2>Wins</h2>
+        
+            </div>
+        
+            <div class = "Word">
+        
+                <h2>Current Word</h2>
+        
+            </div>
+
+            <div class = "Blank"><span id = text-typed> _ _ _ _ _ _ </span></div>
+        
+            <div class = "Guesses">
+        
+                <h2>Number of Guesses Remaining</h2>
+                <span id = "guessed">0</span>
+            </div>
+        
+            <div class = "Letters">
+        
+                <h2>Number of Letter Remaining</h2>
+                <span id = "rem">5</span>
+            </div>
+
+<script>
+
+var name = ["Lebron","Kobe", "Shaq", "Durant", "Jordan"]
+var numGuesses = []
+var numLetter = []
+
+
+
+var num = Math.floor(Math.random() * name.length);
+var nameSelected = name[num];
+console.log(nameSelected);
+
+
+
+var letter = document.getElementById("text-typed");
+
+document.onkeyup = function(event) {
+  letter.textContent = event.key;
+
+
+};
+
+    
+
+
+    
+
+
+</script>
+
+
+           
+
+</script>
+</body>
+</html>

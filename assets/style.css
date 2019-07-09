@@ -1,0 +1,61 @@
+body {
+
+    background-image: url(../images/basketball.jpg);
+    background-size: cover;
+
+
+}
+
+
+header{
+    text-align: center;
+    color: aliceblue;
+}
+Img{
+
+    width: 325px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.Blank{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    background-color: burlywood;
+    
+
+}
+
+.Keys{
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.Wins{
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.Word{
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.Guesses{
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.Letters{
+    text-align: center;
+    color: aliceblue;
+
+}
